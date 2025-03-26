@@ -17,7 +17,6 @@ function App() {
       },
       (err, url) => {
         if (err) return console.error(err);
-
         setQrcode(url);
       }
     );
